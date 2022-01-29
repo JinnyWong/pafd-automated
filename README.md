@@ -4,7 +4,7 @@ Setup tutorial.
 **⚠️ The day before you run this workflow, please manually submit your PAFD first, so that PAFD system has your location info.**
 GitHub actions workflow runs at UTC 2AM, which is 10AM in Shanghai.
 
-1. Register a GitHub account. Then, fork this repository.
+1. Register a GitHub account. Then, fork [the original repository](https://github.com/FDUCSLG/pafd-automated).
 
 ![fork](https://github.com/fducslg/pafd-automated/blob/master/docs/fork.png?raw=true)
 <br>
