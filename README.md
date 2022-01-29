@@ -1,7 +1,7 @@
 # 🌎 Automated PAFD for international students
 Setup tutorial. 
 
-**Note: the day before you run this workflow, please manually submit your PAFD first, so that PAFD system has your location info.**
+**⚠️ The day before you run this workflow, please manually submit your PAFD first, so that PAFD system has your location info.**
 GitHub actions workflow runs at UTC 2AM, which is 10AM in Shanghai.
 
 1. Register a GitHub account. Then, fork this repository.
