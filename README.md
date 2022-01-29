@@ -1,19 +1,23 @@
-# 🌎 Automated PAFD for International students settings
+# 🌎 Automated PAFD for international students
+Setup tutorial. 
 
-首先请注册一个 GitHub 帐号，然后点击右上角的 fork 创建一个副本。
+**Note: the day before you run this workflow, please manually submit your PAFD first, so that PAFD system has your location info.**
+GitHub actions workflow runs at UTC 2AM, which is 10AM in Shanghai.
+
+1. Register a GitHub account. Then, fork this repository.
 
 ![fork](https://github.com/fducslg/pafd-automated/blob/master/docs/fork.png?raw=true)
+<br>
 
-然后在你 fork 的副本中，点击 Settings, Secrets 和 New secret
+2. In your forked repository, click **Settings**, then Secret > Actions.
 
 ![create-secrets](https://github.com/fducslg/pafd-automated/blob/master/docs/create-secrets.png?raw=true)
+<br>
 
-然后创建两个值，Name 为 STD_ID 的在 Value 里填入学号
+3. Create two values: **STD_ID** and **PASSWORD**. In STD_ID, enter your UIS username (student ID number), in PASSWORD enter your UIS password.
 
 ![id](https://github.com/fducslg/pafd-automated/blob/master/docs/id.png?raw=true)
 
 ![password](https://github.com/fducslg/pafd-automated/blob/master/docs/password.png?raw=true)
 
-Name 为 PASSWORD 的在 Value 里填入 UIS 密码。这里可以不用担心安全性问题，这些 scecrets 的值只有你能看见，此外因为背后是 GitHub 为你保障安全——GitHub 的安全性应该比复旦的 UIS 要高。
 
-通过 GitHub Action，每天十点会自动运行脚本帮你填写 PAFD，填写的地址是上一次的位置，从而你再也不用担心被辅导员催啦~
